@@ -1,0 +1,46 @@
+:root{
+   --dark: #3a3838;
+}
+
+header{
+  text-align: center;
+  padding: 1.25em;
+  color: white;
+  background-color: blue;
+  border: 5px solid var(--dark);
+}
+footer{
+  height: 100px;
+  padding: 2em;
+  background-color: blue;
+  border: 5px solid var(--dark);
+}
+p{
+  margin: 0;
+}
+.spacer-bar{
+  height: 20px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: lightblue;
+}
+.text-center{
+  text-align: center;
+}
+.txt-small{
+  font-size: .75em;
+}
+.txt-20{
+font-size: 20px;
+}
+table {
+  width: 100vw;
+}
+.th-left{
+  padding: 2em;
+  text-align: left;
+  width: 75%;
+}
+.th-right{
+  width: 25%;
+}
